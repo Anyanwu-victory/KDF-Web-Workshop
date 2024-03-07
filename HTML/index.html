@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Survey form</title>
+</head>
+<body>
+    <main>
+        <h1>Feedback Survey Form</h1>
+        <form id="survey-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> <br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="150"> <br>
+            
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+            </div><br>
+
+            <label for="feedback-type">Type of Feedback:</label>
+            <select id="feedback-type" name="feedback-type">
+                <option value="positive">Positive</option>
+                <option value="negative">Negative</option>
+                <option value="suggestion">Suggestion</option>
+            </select><br>
+
+            <fieldset>
+                <legend>Services Used:</legend>
+                <input type="checkbox" id="service1" name="services" value="service1">
+                <label for="service1">Service 1</label><br>
+                <input type="checkbox" id="service2" name="services" value="service2">
+                <label for="service2">Service 2</label><br>
+                <input type="checkbox" id="service3" name="services" value="service3">
+                <label for="service3">Service 3</label>
+            </fieldset>
+
+            <label for="comments">Additional Comments:</label> <br>
+            <textarea id="comments" name="comments" rows="4"></textarea> <br>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+    </main>
+
+    <main>
+        <table style="border: 2px solid ;">
+            <caption>Free Coding Resources</caption>
+            <tr>
+              <th>Sites</th>
+              <th>Youtube Channels</th>
+              <th>Mobile Appss</th>
+            </tr>
+            <tr>
+              <td>Freecode Camp</td>
+              <td>Freecode Camp</td>
+              <td>Enki</td>
+            </tr>
+            <tr>
+              <td>W3Schools</td>
+              <td>Academind</td>
+              <td>Programming Hero</td>
+            </tr>
+            <tr>
+              <td>Khan Academy</td>
+              <td>The Coding Train</td>
+              <td>Solo learn</td>
+            </tr>
+          </table>
+    </main>
+
+    <main>
+        <table style="border: 2px solid; border-collapse: collapse;">
+            <caption>Free Coding Resources</caption>
+            <tr style="border: 1px solid;">
+                <th style="color: brown; border: 1px solid;">Sites</th>
+                <th style="color: brown; border: 1px solid;">Youtube Channels</th>
+                <th style="color: brown; border: 1px solid;">Mobile Apps</th>
+            </tr>
+            <tr style="border: 1px solid;">
+                <td style="border: 1px solid;">Freecode Camp</td>
+                <td style="border: 1px solid;">Freecode Camp</td>
+                <td style="border: 1px solid;">Enki</td>
+            </tr>
+            <tr style="border: 1px solid;">
+                <td style="border: 1px solid;">W3Schools</td>
+                <td style="border: 1px solid;">Academind</td>
+                <td style="border: 1px solid;">Programming Hero</td>
+            </tr>
+            <tr style="border: 1px solid;">
+                <td style="border: 1px solid;">Khan Academy</td>
+                <td style="border: 1px solid;">The Coding Train</td>
+                <td style="border: 1px solid;">SoloLearn</td>
+            </tr>
+        </table>
+    </main>
+    
+
+    <main>
+        <ul>
+            <li>orangees</li>
+            <li>Apple</li>
+        </ul>
+
+        <ol>
+            <li>apples</li>
+            <li>organes</li>
+            
+        </ol>
+    </main>
+</body>
+</html>
